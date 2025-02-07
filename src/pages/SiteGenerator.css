@@ -1,0 +1,17 @@
+/* Centraliza o formulário verticalmente */
+html, body {
+    height: 100%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-box {
+    width: 100%;
+    max-width: 400px; /* largura máxima em telas maiores */
+    padding: 20px;
+}

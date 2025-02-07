@@ -1,0 +1,13 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #37373c
+}
+
+h1,h2,h3,h4,h5 {
+    /*font-weight: bold;*/
+}
+
+input::placeholder {
+    font-size: 12px; /* Define o tamanho da fonte do placeholder */
+    color: gray;     /* Você também pode ajustar a cor */
+}
